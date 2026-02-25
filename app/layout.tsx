@@ -16,28 +16,10 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: 'Lava Jato Pro',
   description: 'Sistema de gestao para lava jato',
-  generator: 'v0.app',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black-translucent',
     title: 'Lava Jato Pro',
-  },
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
   },
 }
 
