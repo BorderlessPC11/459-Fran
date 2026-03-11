@@ -1,0 +1,9 @@
+1:"$Sreact.fragment"
+2:I[64547,["/_next/static/chunks/a624b468970d3cc4.js","/_next/static/chunks/16843c3668ae4248.js","/_next/static/chunks/bb8ab9c134f056d0.js"],"DashboardHeader"]
+3:I[70653,["/_next/static/chunks/a624b468970d3cc4.js","/_next/static/chunks/16843c3668ae4248.js","/_next/static/chunks/bb8ab9c134f056d0.js"],"VehicleSummary"]
+4:I[11584,["/_next/static/chunks/a624b468970d3cc4.js","/_next/static/chunks/16843c3668ae4248.js","/_next/static/chunks/bb8ab9c134f056d0.js"],"StatusChart"]
+5:I[91220,["/_next/static/chunks/a624b468970d3cc4.js","/_next/static/chunks/16843c3668ae4248.js","/_next/static/chunks/bb8ab9c134f056d0.js"],"QuickActions"]
+6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/61cc43b3d7ad2990.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+0:{"buildId":"ohUE54WqP-b3i5a6-j-JA","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-dvh flex-col bg-background","children":[["$","$L2",null,{}],["$","main",null,{"className":"flex-1 px-4 py-4 flex flex-col gap-4 safe-bottom pb-8","children":[["$","$L3",null,{}],["$","$L4",null,{}],["$","$L5",null,{}]]}]]}],[["$","script","script-0",{"src":"/_next/static/chunks/16843c3668ae4248.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/bb8ab9c134f056d0.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
+8:null
