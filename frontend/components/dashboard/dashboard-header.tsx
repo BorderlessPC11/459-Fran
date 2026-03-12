@@ -1,6 +1,7 @@
 "use client"
 
 import { User, Eye, MoreHorizontal, Wifi } from "lucide-react"
+import { LogoutButton } from "../logout-button"
 
 export function DashboardHeader() {
   return (
@@ -8,9 +9,12 @@ export function DashboardHeader() {
       {/* Top bar */}
       <div className="flex items-center justify-between mb-3">
         <h1 className="text-lg font-bold text-primary-foreground">Lava Jato Pro</h1>
-        <button className="text-primary-foreground" aria-label="Mais opcoes">
-          <MoreHorizontal className="h-5 w-5" />
-        </button>
+        <div className="flex items-center gap-2">
+          <LogoutButton />
+          <button className="text-primary-foreground" aria-label="Mais opcoes">
+            <MoreHorizontal className="h-5 w-5" />
+          </button>
+        </div>
       </div>
 
       {/* User info bar */}
