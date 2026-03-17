@@ -1,7 +1,7 @@
 "use client"
 
-import { useState } from 'react'
-import { useRouter, useSearchParams } from 'next/navigation'
+import { useEffect, useState } from 'react'
+import { useRouter } from 'next/navigation'
 import { useAuth } from '../../hooks/useAuth'
 
 export default function LoginPage() {
@@ -9,9 +9,21 @@ export default function LoginPage() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [loading, setLoading] = useState(false)
+  const [from, setFrom] = useState('/')
   const router = useRouter()
-  const searchParams = useSearchParams()
-  const from = searchParams.get('from') || '/'
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+    try {
+      const url = new URL(window.location.href)
+      const fromParam = url.searchParams.get('from')
+      if (fromParam) {
+        setFrom(fromParam)
+      }
+    } catch {
+      // ignore URL parse errors
+    }
+  }, [])
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
